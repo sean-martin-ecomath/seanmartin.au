@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Sean Martin
 email: gday@seanmartin.au
-description: Sean is a quantitative ecologist based in Brisbane, Australia.
+description: Sean is a quantitative ecologist and outdoor recreation enthusiast currently based in Brisbane, Australia.
 twitter_username: username
 github_username: sean-martin-ecomath
 minimal_mistakes_skin: default
@@ -55,9 +55,9 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "First Lastname"
+  name   : "Sean Martin"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Sean is a quantitative ecologist and outdoor recreation enthusiast currently based in Brisbane, Australia."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"

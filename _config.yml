@@ -62,27 +62,15 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://seanmartin.au"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/sean-martin-ecomath"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      url: "https://github.com/sean-martin-ecomath"
 
 defaults:
   # _posts
@@ -103,6 +91,19 @@ defaults:
     values:
       layout: single
       author_profile: true
+  # _visual
+  - scope:
+      path: ""
+      type: visual
+    values:
+      layout: single
+      author_profile: true
+      share: true
+
+collections:
+  visual:
+    output: true
+    permalink: /visual/:path/
 
 category_archive:
   type: liquid

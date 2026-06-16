@@ -1,9 +1,10 @@
+# main links shown in the masthead
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
-  - title: "Tags"
-    url: /tags/
   - title: "About"
     url: /about/
+  - title: "Research & Teaching"
+    url: /research/
+  - title: "CV"
+    url: /cv/
+  - title: "Visual Blog"
+    url: /visual/
